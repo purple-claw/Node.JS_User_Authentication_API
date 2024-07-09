@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 
 const app = express();
 //mongoDB Connection
-dbURI = "mongodb+srv://dev:dev1234@node.9lkn7j5.mongodb.net/?retryWrites=true&w=majority&appName=Node";
+dbURI = "your mongoDBCluster Connection String";
 mongoose.connect(dbURI, {
     useNewUrlParser: true,
     useUnifiedTopology: true
