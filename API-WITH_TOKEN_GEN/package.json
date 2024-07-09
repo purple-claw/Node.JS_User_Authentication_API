@@ -1,0 +1,20 @@
+{
+  "name": "node-authentication-framework",
+  "version": "1.0.1",
+  "description": "a simple node authentiction Framework using MERN Stack",
+  "main": "nodemon server.js",
+  "scripts": {
+    "test": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "author": "purple-clae",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.5"
+  }
+}
