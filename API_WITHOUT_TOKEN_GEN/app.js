@@ -6,8 +6,7 @@ const userroute = require('./routes/user');
 
 const app = express();
 
-DBURI = "mongodb+srv://dev:dev1234@node.9lkn7j5.mongodb.net/?retryWrites=true&w=majority&appName=Node";
-
+DBURI = "your mongoDBcluster Connection String";
 mongoose.connect(DBURI,{ useNewUrlParser: true, useUnifiedTopology : true })
     .then((result) => {
         app.listen(3000);
